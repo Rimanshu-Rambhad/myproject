@@ -1,0 +1,52 @@
+.s__details-icon{
+
+    color: var(--color-primary);
+    margin-top: 0.4rem;
+}
+
+.s__detials {
+    display: flex;
+    gap:2rem
+}
+
+.s__detials > div h4{
+    padding-bottom: 2rem;
+}
+
+.s__container > div{
+    padding-left: 57%;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius:2rem ;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+.s__container > div:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+};
+
+/*=========MEDIA QUERIES -med. devices-tablets=========*/
+@media screen and (max-width: 1024px)
+    {
+   
+    }
+    
+
+    /*=========MEDIA QUERIES -small devices-phones=========*/
+@media screen and (max-width: 600px)
+{
+    .s__detials > div h4{
+        padding-right: 5rem;
+         
+    }
+     .s__detials-icon{
+            max-width: fit-content;
+           
+     }   
+}

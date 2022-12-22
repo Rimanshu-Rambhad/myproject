@@ -1,0 +1,19 @@
+/*=========MEDIA QUERIES -med. devices-tablets=========*/
+@media screen and (max-width: 1024px)
+    {
+   
+    }
+    
+
+    /*=========MEDIA QUERIES -small devices-phones=========*/
+@media screen and (max-width: 600px)
+{
+    .s__detials > div h4{
+        padding-right: 5rem;
+         
+    }
+     .s__detials-icon{
+            max-width: fit-content;
+           
+     }   
+}

@@ -1,0 +1,49 @@
+nav{
+   position:fixed;
+    width: max-content;
+    
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    left: 38%;
+    bottom:2rem;
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 3rem;
+    
+}
+ 
+
+nav a:hover{
+    background-color: rgba(0,0,0,1);
+    
+}
+
+nav a.active{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+nav a{
+    background: transparent;
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+    font-size: 1.3rem;
+    
+}    
+    
+/*=========MEDIA QUERIES -med. devices-tablets=========*/
+@media screen and (max-width: 1024px)
+    {
+    
+    }
+
+    /*=========MEDIA QUERIES -small devices-phones=========*/
+@media screen and (max-width: 600px)
+{
+  
+}
+
+
