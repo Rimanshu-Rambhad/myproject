@@ -11,7 +11,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+/*connecting emailjs, submitting forms with the help of emailjs*/
     emailjs.sendForm('service_bmzc66k', 'template_vc1q076', form.current, 'q3DAnIC3ejQSw50BX')
 
     e.target.reset()
@@ -23,7 +23,7 @@ const Contact = () => {
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
-      <div className="contact__container">
+      <div className="container contact__container">
 
         <div className="contact__options">
 
@@ -54,9 +54,9 @@ const Contact = () => {
         {/*end of contact options*/}
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Please enter your name' required />
-          <input type="email" name='email' placeholder='Please enter your Email id'required />
-          <textarea name="message" rows="7" placeholder='Please enter your Message here' required ></textarea>
+          <input type="text" name='name' placeholder='Please enter your name'className='hello__hi' required />
+          <input type="email" name='email' placeholder='Please enter your Email id' className='hello__hi'required />
+          <textarea name="message" rows="7" placeholder='Please enter your Message here' className='hello__hi'required ></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>

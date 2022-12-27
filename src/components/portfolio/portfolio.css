@@ -8,11 +8,15 @@
     /*=========MEDIA QUERIES -small devices-phones=========*/
 @media screen and (max-width: 600px)
 {
-    .s__detials > div h4{
-        padding-right: 5rem;
+    .container s__container{
+        width:var(--container-width-sm);
+    }
+      
+    .s__details > div h4{
+        padding-left: 5rem;
          
     }
-     .s__detials-icon{
+     .s__details-icon{
             max-width: fit-content;
            
      }   

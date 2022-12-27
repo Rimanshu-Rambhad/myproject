@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import {BsFillPatchCheckFill} from 'react-icons/bs'
 
-
+/*achievments*/
 const Portfolio=() =>{
   return (
     <section id='portfolio'>
@@ -18,7 +18,7 @@ const Portfolio=() =>{
             <div><h4>Handled a team of 20 people and successfully delivered
                the project before the deadline</h4></div>
           </article>
-    
+  
             
           <article className='s__detials'>
             <BsFillPatchCheckFill className='s__details-icon'/>

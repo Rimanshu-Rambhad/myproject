@@ -5,7 +5,7 @@ import { BsFillPatchCheckFill } from 'react-icons/bs'
 function Services() {
   return (
     <section id='service'>
-      <h2>Extra Curricular Activities</h2>
+      <h2 className='hello'>Extra Curricular Activities</h2>
 
       <div className='container s__container'>
       

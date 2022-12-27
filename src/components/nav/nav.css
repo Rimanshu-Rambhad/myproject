@@ -43,7 +43,14 @@ nav a{
     /*=========MEDIA QUERIES -small devices-phones=========*/
 @media screen and (max-width: 600px)
 {
+  nav{
+margin-left: 100rem;
+    padding-right: 10rem;
+    right: 150%;
+  }
   
-}
+    
+  }
+
 
 
